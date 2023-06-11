@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="code.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Productos</title>
+</head>
+<body>
+
+    <h1>Productos</h1>
+    <form id="formulario" onsubmit="addFila(event)">
+       
+            <label for="codigo">codigo:</label>
+            <input id="codigo" name="codigo" type="text" required>
+        
+            <label for="name">Nombre:</label>
+            <input id="name" name="name" type="text" required>
+       
+            <label for="cantidad">Cantidad:</label>
+            <input id="cantidad" name="cantidad" type="number" min="1" max="1000" required>
+        
+            <label for="costo">Costo:</label>
+            <input id="costo" name="costo" type="text" required>
+     
+            <label for="precio">Precio:</label>
+            <input id="precio" name="precio" type="text" required>
+        
+            <label for="vence">Fecha Vencimiento:</label>
+            <input id="vence" name="vence" type="date" required>  
+            <input type="submit" value="AGREGAR">
+    </form>
+<table id="tabla"> 
+   
+        <tr>
+            <th>Codigo</th>
+            <th>Nombre</th>
+            <th>Cantidad</th>
+            <th>Costo</th>
+            <th>Precio</th>
+            <th>Fecha Vencimiento</th>
+        </tr>
+    
+    
+</table>
+</body>
+</html>

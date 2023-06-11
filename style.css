@@ -1,0 +1,50 @@
+h1, form{
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    background-color: rgb(14, 144, 224);
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #0fcfdd;
+}
+input[type="submit"]:focus{
+    outline: none;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+th,td{
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px  solid black;
+    border-top: 1px  solid black;
+
+}
+tr:nth-child(even){
+    background-color: rgb(14, 144, 224);
+}
